@@ -1,0 +1,90 @@
+/* navbar */
+*{
+    /* border:1px solid black; */
+}
+.navbar{
+    background-color: #d63384;
+}
+.navbar-brand{
+    width: 4%;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+/* home section */
+.bgimg{
+    background-image: url(./fruitbg.jpg);
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+}
+.hpart h1{
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+.hpart .btn{
+   font-weight: bold;
+}
+
+/* about section */
+.acontent h3 {
+    color: #e91e63;
+    margin-top: 3%;
+}
+.acontent p {
+    color: blue;
+    margin-top: 3%;
+    line-height: 30px;
+}
+/* products */
+.card-img-top {
+    width: 70%;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    color: blue;
+}
+.card-text{
+    color:#d63384;
+    font-weight: bold;
+}
+/* payments */
+.input-group-text{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+/* contact */
+.form-label{
+    color: #e91e63;
+    font-weight: bold;
+}
+
+/* footer */
+.footer {
+    background-color: purple;
+}
+.fhead{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline 4px solid gold;
+}
+.icons .fa-brands {
+    font-size: 25px;
+    color: whitesmoke;
+    margin: 1%;
+}
+.icons .fa-brands:hover {
+    color: greenyellow;
+}
+.fimg {
+    margin-top: 2%;
+} 
